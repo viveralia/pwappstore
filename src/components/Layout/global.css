@@ -1,0 +1,41 @@
+:root {
+  --mainFill: #111;
+  --mutedFill: #999;
+  --actionBg: #f3f9ff;
+  --actionText: #0078ff;
+  --spacing: 1rem 1.5rem;
+  --border: 1px solid #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: var(--mutedFill);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--mainFill);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
